@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0b04a93-7b76-40c0-a281-eb9522d60c93" name="Changes" comment="Jogo da Forca - Commit" />
+    <list default="true" id="d0b04a93-7b76-40c0-a281-eb9522d60c93" name="Changes" comment="Jogo da Forca">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,15 +59,7 @@
       <option name="project" value="LOCAL" />
       <updated>1731264383306</updated>
     </task>
-    <task id="LOCAL-00002" summary="Jogo da Forca - Commit">
-      <option name="closed" value="true" />
-      <created>1731265842268</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1731265842268</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,7 +75,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Jogo da Forca" />
-    <MESSAGE value="Jogo da Forca - Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jogo da Forca - Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jogo da Forca" />
   </component>
 </project>
