@@ -1,6 +1,6 @@
-package Palavra;
+package Dominio;
 
-public class Palavras {
+public class Palavra {
 
     String palavra;
     String dica;

@@ -1,7 +1,10 @@
 package Util;
 
-import Palavra.Categoria;
+import Dominio.Categoria;
+import Dominio.Palavra;
 import com.google.gson.Gson;
+
+import java.util.ArrayList;
 
 public class TrabalhandoComLista {
 
@@ -17,11 +20,26 @@ public class TrabalhandoComLista {
         
         """;
 
-   public Categoria getLista(String categoria) {
+   public Categoria getLista() {
       Gson gson = new Gson();
       Categoria lista = gson.fromJson(json, Categoria.class);
       return lista;
    }
+
+   public ArrayList<Palavra> extraindoPalavras(Categoria categoriaQualquer) {
+      ArrayList<Palavra> listaProcessada = new ArrayList<>();
+      for (String o : categoriaQualquer.getAnimais() ) {
+         Palavra palavra = new Palavra();
+         palavra.setPalavra(o);
+         palavra.setTamanho(o.length());
+         palavra.setDica("Animal");
+         listaProcessada.add(palavra);
+      }
+
+      System.out.println(listaProcessada.get(17).getPalavra());
+      return listaProcessada;
+   }
+
 }
 
 
