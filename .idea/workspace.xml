@@ -4,29 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0b04a93-7b76-40c0-a281-eb9522d60c93" name="Changes" comment="Jogo da Forca">
+    <list default="true" id="d0b04a93-7b76-40c0-a281-eb9522d60c93" name="Changes" comment="feat: importando palavras">
+      <change afterPath="$PROJECT_DIR$/src/Palavra/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Util/TrabalhandoComLista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogodaforca.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jogodaforca.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ElioMoratori/JogoDaForca.git",
-    "accountId": "e3a470e4-faaa-49f4-ae6a-09fc6638d339"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ElioMoratori/JogoDaForca.git&quot;,
+    &quot;accountId&quot;: &quot;e3a470e4-faaa-49f4-ae6a-09fc6638d339&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ofanlnY00vDDcnFsB7UQWMP30j" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,9 +50,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/eliom/Documents/meusestudosdeprogramacao/jogodaforca/src/Main.java"
+    "last_opened_file_path": "C:/Users/eliom/Downloads/gson-2.11.0.jar",
+    "onboarding.tips.debug.path": "C:/Users/eliom/Documents/meusestudosdeprogramacao/jogodaforca/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Palavra" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Jogo da Forca" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jogo da Forca" />
+    <MESSAGE value="feat: importando palavras" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: importando palavras" />
   </component>
 </project>
