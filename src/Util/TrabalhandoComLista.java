@@ -1,8 +1,7 @@
 package Util;
 
-import Palavra.Palavra;
+import Palavra.Categoria;
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 public class TrabalhandoComLista {
 
@@ -18,7 +17,11 @@ public class TrabalhandoComLista {
         
         """;
 
-
+   public Categoria getLista(String categoria) {
+      Gson gson = new Gson();
+      Categoria lista = gson.fromJson(json, Categoria.class);
+      return lista;
+   }
 }
 
 

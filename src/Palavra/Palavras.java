@@ -1,6 +1,6 @@
 package Palavra;
 
-public class Palavra {
+public class Palavras {
 
     String palavra;
     String dica;
